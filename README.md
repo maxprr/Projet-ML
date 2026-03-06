@@ -32,8 +32,8 @@ Analyse exploratoire : distributions, corrélations, détection d'outliers, visu
 **2. `Preprocess/preprop_final.ipynb`**
 Nettoyage et transformation des données brutes. Génère les fichiers `train_preprocessed.csv` et `test_preprocessed.csv` dans `data/`.
 
-**3. `Modelisation/regression_logistique.ipynb`**
-Baseline avec régression logistique sur les données preprocessées.
+**3. `Modelisation/DummyClassifier.ipynb`**
+Baseline avec un dummy classifier sur les données preprocessées.
 
 **4. `Models/DecisionTree_Final.ipynb`**
 Entraînement et optimisation d'un Decision Tree.
@@ -44,25 +44,22 @@ XGBoost avec tuning Optuna optimisé sur le score Kaggle (ROC-AUC).
 **6. `Models/XGBOOST_Optimisation_coût.ipynb`**
 Variante XGBoost optimisée sur une matrice de coût métier.
 
----
 
-## 📊 Données
+6/ Données
 
 - **Train** : 233 956 lignes, 21 features, ~3% de fraudes (avant SMOTE)
 - **Test** : 40 000 lignes
 - **Features** : age, tenure, revenus, score crédit, comportement transactionnel, risque IP, devices, etc.
 
----
 
-## ⚙️ Installation
+7/ Installation
 
 ```bash
 pip install numpy pandas scikit-learn xgboost imbalanced-learn optuna torch
 ```
 
----
 
-## 📤 Format de soumission
+8/ Format de soumission
 
 ```csv
 customer_id,target_is_fraud
