@@ -41,7 +41,7 @@ Entraînement et optimisation d'un Decision Tree.
 **5. `Models/XGBOOST_Optimisation_Kaggle.ipynb`**
 XGBoost avec tuning Optuna optimisé sur le score Kaggle (ROC-AUC).
 
-**6. `Models/XGBOOST_Optimisation_coût.ipynb`**
+**6. `Models/XGBOOST_optimisation_cout_et_interpretabilite.ipynb`**
 Variante XGBoost optimisée sur une matrice de coût métier.
 
 
